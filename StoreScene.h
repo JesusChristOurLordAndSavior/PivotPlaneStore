@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StoreScene.h
 //  GameStoreTest
 //
 //  Created by Luigi Mangione on 4/3/15.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
-#import "StoreScene.h"
 
-@interface ViewController : UIViewController
-
+@interface StoreScene : SKScene
 
 @end
-

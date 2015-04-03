@@ -14,6 +14,8 @@
 		36A0DD6B1ACF34D6000129CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A0DD6A1ACF34D6000129CC /* Images.xcassets */; };
 		36A0DD6E1ACF34D6000129CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A0DD6C1ACF34D6000129CC /* LaunchScreen.xib */; };
 		36A0DD7A1ACF34D6000129CC /* GameStoreTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A0DD791ACF34D6000129CC /* GameStoreTestTests.m */; };
+		36A0DD841ACF3523000129CC /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A0DD831ACF3523000129CC /* SpriteKit.framework */; };
+		36A0DD871ACF356A000129CC /* StoreScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A0DD861ACF356A000129CC /* StoreScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		36A0DD731ACF34D6000129CC /* GameStoreTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameStoreTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A0DD781ACF34D6000129CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36A0DD791ACF34D6000129CC /* GameStoreTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameStoreTestTests.m; sourceTree = "<group>"; };
+		36A0DD831ACF3523000129CC /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		36A0DD851ACF356A000129CC /* StoreScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoreScene.h; path = ../StoreScene.h; sourceTree = "<group>"; };
+		36A0DD861ACF356A000129CC /* StoreScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoreScene.m; path = ../StoreScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A0DD841ACF3523000129CC /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		36A0DD511ACF34D6000129CC = {
 			isa = PBXGroup;
 			children = (
+				36A0DD831ACF3523000129CC /* SpriteKit.framework */,
 				36A0DD5C1ACF34D6000129CC /* GameStoreTest */,
 				36A0DD761ACF34D6000129CC /* GameStoreTestTests */,
 				36A0DD5B1ACF34D6000129CC /* Products */,
@@ -85,6 +92,8 @@
 				36A0DD621ACF34D6000129CC /* AppDelegate.m */,
 				36A0DD641ACF34D6000129CC /* ViewController.h */,
 				36A0DD651ACF34D6000129CC /* ViewController.m */,
+				36A0DD851ACF356A000129CC /* StoreScene.h */,
+				36A0DD861ACF356A000129CC /* StoreScene.m */,
 				36A0DD671ACF34D6000129CC /* Main.storyboard */,
 				36A0DD6A1ACF34D6000129CC /* Images.xcassets */,
 				36A0DD6C1ACF34D6000129CC /* LaunchScreen.xib */,
@@ -221,6 +230,7 @@
 			files = (
 				36A0DD661ACF34D6000129CC /* ViewController.m in Sources */,
 				36A0DD631ACF34D6000129CC /* AppDelegate.m in Sources */,
+				36A0DD871ACF356A000129CC /* StoreScene.m in Sources */,
 				36A0DD601ACF34D6000129CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GameStoreTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GameStoreTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
