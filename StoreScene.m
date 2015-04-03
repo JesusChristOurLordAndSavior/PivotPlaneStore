@@ -28,6 +28,8 @@
 - (void)createSceneContents{
     self.backgroundColor = [SKColor whiteColor];
     
+    NSLog(@"Delete ME!");
+    
     SKSpriteNode *leftButton = [SKSpriteNode spriteNodeWithImageNamed:@"LeftButton"];
     leftButton.position = CGPointMake(50, 60);
     leftButton.name = @"LeftButton";
